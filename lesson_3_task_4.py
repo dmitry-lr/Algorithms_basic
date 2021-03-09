@@ -18,6 +18,6 @@ for i in range(len(array)):
         freq = egg
         num = array[i]
 if freq > 1:
-    print(f'Число {num} встречается {freq} раз')
+    print(f'Число {num} встречается в массиве {freq} раз')
 else:
     print("Все элементы массива уникальны")
