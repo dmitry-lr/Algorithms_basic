@@ -4,7 +4,7 @@ import random
 
 LENGTH = 20
 MIN_VALUE = 0
-MAX_VALUE = 1000
+MAX_VALUE = 6
 array = [random.randint(MIN_VALUE, MAX_VALUE) for i in range(LENGTH)]
 print(f'Начальный массив: {array}')
 num = array[0]
